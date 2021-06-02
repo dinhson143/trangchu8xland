@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.MenuBlock {
+  position: relative;
+  height: 150px;
+  -webkit-filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+          filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+
+.MenuBlock .Menu {
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 38%, 46% 38%, 41% 100%, 25% 100%, 0 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 38%, 46% 38%, 41% 100%, 25% 100%, 0 100%);
+}
+
+.MenuBlock .Menu .Menu__logo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.MenuBlock .Menu .Menu__navContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  text-align: center;
+}
+
+.MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+  text-align: left;
+  margin-left: 20px;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: #f3b816;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin-top: 7.5px;
+}
+
+.MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: right;
+  margin-top: 7.5px;
+}
+
+.MenuBlock .MenuShadow {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 38%, 46% 38%, 41% 100%, 25% 100%, 0 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 38%, 46% 38%, 41% 100%, 25% 100%, 0 100%);
+}
+
+.Menu__nav {
+  background-color: #e2e3ec;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  z-index: -1;
+  height: 150px;
+}
+
+.Menu__nav i {
+  position: absolute;
+  font-size: 50px;
+  display: none;
+  text-align: center;
+  left: 50%;
+  top: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #121a66;
+}
+
+.Menu__nav ul {
+  position: absolute;
+  bottom: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: auto;
+  width: 75%;
+  margin-left: 15%;
+}
+
+.Menu__nav ul li {
+  font-size: 23px;
+  color: #121a66;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 3.2%;
+}
+/*# sourceMappingURL=main.css.map */

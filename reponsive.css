@@ -1,0 +1,94 @@
+
+@media (max-width:1565px)
+{
+    .Menu__nav ul{
+        margin-right: 0;
+        bottom:10%;
+    }
+}
+/* IPad pro */
+@media (max-width:1239px) and (min-width:1024px)
+{
+    .Menu__nav ul{
+        width:80%;
+        width: 85%;
+    }
+    .Menu__nav ul li{
+        font-size: 21px;
+        line-height:1.5;
+    }
+    .Menu__nav{
+        
+    }
+}
+
+
+/* Mobile and Tablet */
+@media (max-width:1023px)
+{
+    .Menu__nav ul{
+        justify-content:unset;
+        bottom:14%;
+
+    }
+    .Menu__nav ul li{
+        font-size: 21px;
+        max-width:120px;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail{
+        margin-left: 0;
+        font-size: 15px;
+    }
+}
+/* tablet */
+@media (min-width:740px) and (max-width:1023px)
+{
+    
+}
+
+
+/* mobile */
+@media (max-width:740px)
+{
+    .Menu__logo img{
+        max-width:150px;
+        height:70px;
+    }
+    .MenuBlock .Menu .Menu__navContact{
+        display:unset;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail{
+        margin-top: unset;
+        padding:5px;
+    }
+    .Menu__nav ul{
+        bottom:5%;
+    }
+    .Menu__nav ul li{
+        max-width:unset;
+        width:130px;
+        text-align:unset;
+        padding:0;
+    }
+}
+@media (max-width:600px)
+{
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail{
+       font-size:11px;
+    }
+    .Menu__nav i{
+        display:block;
+
+    }
+    .Menu__nav ul{
+        display:none;
+    }
+    .Menu__logo img{
+        max-width:120px;
+    }
+}
+
+
+
+
+
