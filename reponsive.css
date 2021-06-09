@@ -1,17 +1,115 @@
 
-@media (max-width:1565px)
+@media (min-width: 1367px){
+    .menu,.content, .containerFooter{
+        max-width: 1600px;
+    }
+    /* content */
+}
+@media (max-width:1945px)
 {
+    .slider .owl-dots button{
+        width:150px;
+    }
+}
+@media (max-width:1545px)
+{
+    .slider .owl-dots button{
+        width:100px;
+    }
+}
+@media (max-width:1145px)
+{
+    .slider .owl-dots button{
+        width:75px;
+    }
+}
+@media (max-width:1920px)
+{
+    .MenuBlock .Menu .Menu__logo{
+        margin-left: 5%;
+    }
+    .MenuBlock .Menu .Menu__navContact{
+        margin-right: 5%;
+    }
     .Menu__nav ul{
-        margin-right: 0;
-        bottom:10%;
+        right:5%;
+    }
+    .Menu__nav .Menu__navChild{
+        display:block;
+
+    }
+    .Menu__nav ul,.MenuBlock .Menu .Menu__navContact .Menu__navContact--Icon .icon-menu{
+        display:none;
+    }
+    .MenuBlock .Menu,.MenuBlock .MenuShadow{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 40% 50%, 34% 100%, 25% 100%, 0 100%);
+    }
+    /* content */
+    .content{
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    .main .menu .mainmenu{
+        display: unset;
+    }
+    .main .menu .mainmenu .menuSearch{
+        margin-left: unset;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main .menu .mainmenu .menuSearch .menuSearch__sub{
+        justify-content:unset;
+    }
+    .main .menu .mainmenu .menuSearch .menuSearch__sub .menuSearch__sub2,.main .menu .mainmenu .menuSearch .menuSearch__sub .menuSearch__sub1{
+        margin: 5px;
+    }
+    .main .menu .mainmenu .menuLogin .menuLogin__signin, .main .menu .mainmenu .menuLogin .menuLogin__signup{
+        margin: auto;
+    }
+    .main .menu{
+        margin-top:0;
+    }
+}
+@media (max-width: 1367px){
+    /* content */
+    .content .danhmucnoibat .danmucnoibat__start{
+        clip-path: polygon(45% 0%, 50% 92%, 100% 92%, 100% 100%, 39% 100%, 30% 100%, 0 100%, 0 0);
+    }
+    .content .danhmucnoibat__list{
+        margin-top: 30px;
+    }
+    /* Footer */
+    .footer .footerOFooter .social-footer .center-block img{
+        max-width:250px;
+    }
+    .content .tintucRow .tintucItem .tintucItem__left .tintucItem__leftItem .tintucItem__Infor h3{
+        font-size:18px;
+    }
+    .content .bietthuRow .bietthuItem .bietthuItem__item .bietthuItem__item--footer h1{
+        font-size: 40px;
+    }
+    .content .bdsKCNrow .bdsKCNItem .bdsKCNItem__item .bdsKCNItem__itemContent .bdsKCNItem__itemContent2 h1{
+        font-size:45px;
     }
 }
 /* IPad pro */
 @media (max-width:1239px) and (min-width:1024px)
 {
+    .MenuBlock .Menu .Menu__logo img{
+        width:85%;
+    }
+    .MenuBlock .Menu .Menu__navContact{
+        margin-top: 10px;;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT p, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail p{
+        font-size:13px;
+        padding: 10px 5px 7px 5px;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--Icon img{
+        width:35px;
+        height: 35px;
+    }
     .Menu__nav ul{
-        width:80%;
-        width: 85%;
     }
     .Menu__nav ul li{
         font-size: 21px;
@@ -20,24 +118,108 @@
     .Menu__nav{
         
     }
+    /* Footer */
+    .footer .containerFooter .rightFooter{
+        margin-top:50px;
+    }
+    .footerOFooter{
+        margin-top:50px;
+    }
 }
 
 
 /* Mobile and Tablet */
 @media (max-width:1023px)
 {
+    .MenuBlock .Menu .Menu__navContact{
+        margin-right: 3%;
+    }
+    .Menu__nav ul{
+        right:3%;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--Icon img{
+        width:35px;
+        height: 35px;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--Icon{
+        margin-top: 7.5px;
+    }
+    .MenuBlock .Menu .Menu__logo img{
+        width:85%;
+    }
     .Menu__nav ul{
         justify-content:unset;
-        bottom:14%;
-
+        bottom:10%;
     }
     .Menu__nav ul li{
-        font-size: 21px;
+        font-size: 20px;
         max-width:120px;
     }
-    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail{
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT p, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail p{
+        font-size:12px;
+        padding: 5px 20px 5px 20px;
+    }
+    /* content */
+    .main .menu .mainmenu .menuSearch .menuSearch__sub .menuSearch__sub2, .main .menu .mainmenu .menuSearch .menuSearch__sub .menuSearch__sub1{
+        display:none;
+    }
+    .main .menu .mainmenu .menuSearch .menuSearch__sub .menuSearch__sub1Mobile{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .main .menu .mainmenu .menuSearch
+    {
+        margin-top:10px;
+    }
+    .main .menu .mainmenu .menuSearch .menuSearch__sub{
+        margin-top:0px;
+    }
+    .content .danhmucnoibat .danmucnoibat__start h2{
+        font-size:25px;
+    }
+    .content .danhmucnoibat__list .danhmucnoibat__item{
+        max-width:134px;
+    }
+    /* BDS KCN */
+    .content .bdsKCNrow .bdsKCN .bdsKCN__start h2{
+        font-size:20px;
+    }
+    .content .danhmucnoibat .danmucnoibat__start i{
+        font-size:35px;
+    }
+    .content .bietthuRow .bietthuItem .bietthuItem__item .bietthuItem__item--footer{
+        display:unset;
+    }
+    .content .bdsKCNrow .bdsKCNItem .bdsKCNItem__item .bdsKCNItem__itemContent{
+        display:block;
+    }
+    .content .bdsKCNrow .bdsKCNItem .bdsKCNItem__item .bdsKCNItem__itemContent .bdsKCNItem__itemContent1,
+    .content .bdsKCNrow .bdsKCNItem .bdsKCNItem__item .bdsKCNItem__itemContent .bdsKCNItem__itemContent2{
+        max-width:unset;
+    }
+    /* footer */
+    .footer .footerOFooter .social-footer .center-block img{
+        max-width: 315px;
+    }
+    .footer .containerFooter .leftFooter{
+        margin-left: 15px;
+    }
+    .footer .containerFooter .rightFooter{
+        margin-top:50px;
         margin-left: 0;
-        font-size: 15px;
+    }
+    .footerOFooter{
+        margin-top:50px;
+    }
+    .footer .footerOFooter .DKKD{
+        margin-top: 30px;
+    }
+    .footer .containerFooter .rightFooter{
+        width: 100%;
+    }
+    .slider .owl-dots button{
+        width:50px; 
     }
 }
 /* tablet */
@@ -50,12 +232,32 @@
 /* mobile */
 @media (max-width:740px)
 {
-    .Menu__logo img{
-        max-width:150px;
-        height:70px;
+    .MenuBlock .Menu,.MenuBlock .MenuShadow{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 40% 60%, 34% 100%, 25% 100%, 0 100%);
+    }
+    .MenuBlock .Menu .Menu__logo{
+        margin-top: unset;
+        margin-bottom:unset;
+        margin-left:2%;
     }
     .MenuBlock .Menu .Menu__navContact{
-        display:unset;
+        margin-right: 2%;
+    }
+    .MenuBlock .Menu .Menu__logo img{
+        width:80%;
+        height:100%;
+    }
+    .MenuBlock .Menu .Menu__navContact{
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT p, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail p{
+        font-size:12px;
+        padding: 5px;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--Icon{
+        width:100%;
+        justify-content:center;
     }
     .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail{
         margin-top: unset;
@@ -70,23 +272,215 @@
         text-align:unset;
         padding:0;
     }
+    .Menu__nav .Menu__navChild i{
+        font-size:30px;
+    }
+    /* content */
+    .content{
+        margin-left: 2%;
+        margin-right:2%;
+    }
+    .content .danhmucnoibat .danmucnoibat__start h2{
+        font-size:20px;
+    }
+    /* dự án */
+    .content .duanRow .duan1 .duan1__item .duan1__itemRight img{
+        height:400px;
+        margin: 20px 0;
+    }
+    /* BDS KCN */
+    .content .bdsKCNrow .bdsKCN .bdsKCN__start h2{
+        font-size:15px;
+        margin: 10px;
+    }
+    .content .danhmucnoibat .danmucnoibat__start i{
+        font-size:25px;
+    }
+    .footer .containerFooter .leftFooter{
+        margin-top: 50px;
+    }
+    .footer .containerFooter{
+        padding-bottom: 50px;
+    }
+    .content .sliderFooter .slider2 .owl-nav{
+        left:-45px;
+        right:-45px;
+    }
+    .slider .owl-dots button{
+        width:30px; 
+    }
 }
 @media (max-width:600px)
 {
+    .MenuBlock .Menu .Menu__logo img{
+        width:unset;
+    }
+    .MenuBlock .Menu .Menu__navContact,.MenuBlock .Menu .Menu__navContact .Menu__navContact--Icon{
+        flex-wrap: wrap;
+        justify-content:flex-end;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT p, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail p{
+        font-size:8px;
+        padding: 3px;
+    }
+    .MenuBlock .Menu .Menu__navContact{
+        margin-right: 0%;
+    }
     .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail{
        font-size:11px;
     }
-    .Menu__nav i{
-        display:block;
-
-    }
-    .Menu__nav ul{
-        display:none;
-    }
     .Menu__logo img{
-        max-width:120px;
+        max-width:130px;
+    }
+    /* content */
+    .main .menu{
+        margin-top:0;
+    }
+    .main .menu .mainmenu .menuLogin .menuLogin__signin, .main .menu .mainmenu .menuLogin .menuLogin__signup,
+    .main .menu .mainmenu .menuSearch .input-group .menuSearch__input input
+    {
+        font-size:14px;
+    }
+    .main .menu .mainmenu .menuSearch .input-group .menuSearch__input input{
+        padding:15px;
+    }
+    .main .menu .mainmenu .menuSearch .input-group .menuSearch__input .form-control-feedback{
+        font-size:20px;
+        top: 5px;
+    }
+    .main .menu .mainmenu .menuSearch .menuSearch__sub .menuSearch__sub1 .menuSearch__sub--item{
+        padding:5px 10px;
+        font-size:13px;
+    }
+    .content .danhmucnoibat .danmucnoibat__start h2{
+        margin: 10px 0;
+    }
+    .content .danhmucnoibat .danmucnoibat__start{
+        clip-path: polygon(70% 0%, 75% 92%, 100% 92%, 100% 100%, 39% 100%, 30% 100%, 0 100%, 0 0);
+    }
+    .content .danhmucnoibat .danmucnoibat__start i{
+        font-size:30px;
+    }
+    /* dự án */
+    .content .duanRow .duan1 .TitleaName .TitleaName__title h1{
+        font-size:24px;
+    }
+    .content .duanRow .duan1 .duan1__item .duan1__itemLeft img{
+        height:300px;
+    }
+    .content .duanRow .duan1 .duan1__item .duan1__itemRight img{
+        height:300px;
+        margin: 20px 0;
+    }
+    /*  */
+    .content .bietthuRow .SelectaName{
+        display:block;
+    }
+    /* tintuc */
+    .content .tintucRow .tintucItem .tintucItemRow .tintucItem__left .tintucItem__leftItem{
+        display:block;
+    }
+    .content .tintucRow .tintucItem .tintucItemRow .tintucItem__left .tintucItem__leftItem .tintucItem__Infor h3{
+        margin-bottom: 15%;
+    }
+    /* Footer */
+    .footer .footerOFooter .social-footer .center-block{
+        display:block;
+    }
+    .footer .footerOFooter .social-footer .center-block .center-block__share{
+        margin-top:20px;
+    }
+    .content .sliderFooter .slider2 .owl-nav .owl-prev span,
+    .content .sliderFooter .slider2 .owl-nav .owl-next span{
+        padding:0 10px 5px 10px;
+    }
+    .content .sliderFooter .slider2 .owl-nav{
+        left:-35px;
+        right:-35px;
+    }
+    .slider .owl-dots button{
+        margin: 0 10px;
+    }
+    .slider .owl-dots button{
+        width:24px;
     }
 }
+@media (max-width:376px){
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT p, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail p{
+        font-size:7px;
+        padding: 3px;
+    }
+    .Menu__logo img{
+        max-width:100px;
+    }
+    .MenuBlock .Menu .Menu__navContact .Menu__navContact--SDT, .MenuBlock .Menu .Menu__navContact .Menu__navContact--Gmail{
+        padding:3px;
+    }
+    .Menu__nav .Menu__navChild i{
+        font-size:29px;
+    }
+    /* content */
+    .main .menu .mainmenu .menuLogin .menuLogin__signin, 
+    .main .menu .mainmenu .menuLogin .menuLogin__signup
+    {
+        font-size:12px;
+    }
+    .main .menu .mainmenu .menuSearch .input-group .menuSearch__input input{
+        font-size:10px;
+    }
+    .main .menu .mainmenu .menuSearch .menuSearch__sub .menuSearch__sub1 .menuSearch__sub--item{
+        padding: 5px;
+    }
+    /* BDS KCN */
+    .content .bdsKCNrow .bdsKCN .bdsKCN__start h2{
+        font-size:15px;
+        margin:5px 3px;
+    }
+    .content .danhmucnoibat .danmucnoibat__start i{
+        font-size:20px;
+    }
+    .content .endBody .endBody__vien{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .content .sliderFooter .slider2 .owl-nav{
+        left:-30px;
+        right:-30px;
+    }
+}
+@media (max-width:375px){
+    .content .danhmucnoibat .danmucnoibat__start{
+        clip-path: polygon(85% 0%, 90% 92%, 100% 92%, 100% 100%, 39% 100%, 30% 100%, 0 100%, 0 0);
+    }
+    .content .danhmucnoibat__list .danhmucnoibat__item{
+        min-width:120px;
+    }
+    .footer .footerOFooter .social-footer .center-block img{
+        max-width:250px;
+    }
+    .content .tintucRow .tintucItem .tintucItemRow .tintucItem__left .tintucItem__leftItem img{
+        margin-right: 0;
+    }
+    .footer .containerFooter .leftFooter{
+        margin-left: 0;
+    }
+    .footer .containerFooter .rightFooter .rightFooter__content .footer-links .link_footer img{
+        margin: auto 20px auto 10px;
+    }
+    .footer .containerFooter .rightFooter .rightFooter__content h2,
+    .footer .containerFooter .leftFooter .leftFooter__content .ft-newslatter h2,
+    .footer .containerFooter .rightFooter .centerFooter__content h2{
+        font-size:27px;
+    }
+    .footer .containerFooter .rightFooter .centerFooter__content .footer-links li a,
+    .footer .containerFooter .leftFooter .leftFooter__content span{
+        font-size: 17px;
+    }
+    .slider .owl-dots button{
+        width:17px;
+    }
+}
+
 
 
 

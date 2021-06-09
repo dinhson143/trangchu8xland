@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./reponsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="./grid.css">
+
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="./js/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="./js/owl-carousel/owl.theme.css"> -->
+
+    <script src="./8xland/jquery-3.4.1.min.js.download"></script>
+    <script src="./8xland/jquery-migrate-3.1.0.min.js.download"></script>
+    <script src="./8xland/ConsVar.js.download"></script>
+    <script src="./8xland/bootstrap.min.js.download"></script>
+
 </head>
+
 <body>
     <div class="MenuBlock">
         <div class="Menu">
@@ -16,22 +32,616 @@
                 <img src="./img/logo.png" alt="">
             </div>
             <div class="Menu__navContact">
-                <p class="Menu__navContact--Gmail">CONTACT8XLAND@GMAIL.COM</p>
-                <p class="Menu__navContact--SDT">TEL 070090119</p>
+                <div class="Menu__navContact--Gmail">
+                    <p class="">GỬI BẤT ĐỘNG SẢN</p>
+                </div>
+                <div class="Menu__navContact--SDT">
+                    <p class="">GIỚI THIỆU KHÁCH HÀNG</p>
+                </div>
+                <div class="Menu__navContact--Icon">
+                    <img src="./img/vietnam.png" alt="">
+                    <img src="./img/turkey.png" alt="">
+                    <img src="./img/korea.png" alt="">
+                    <img src="./img/cuba.png" alt="">
+                    <div class="icon-menu">
+                        <i class="fas fa-home"></i>
+                        <i class="far fa-id-badge"></i>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="MenuShadow">
         </div>
     </div>
     <div class="Menu__nav">
-        <i class="fas fa-bars"></i>
+        <div class="Menu__navChild">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-home"></i>
+            <i class="far fa-id-badge"></i>
+        </div>
         <ul>
-            <li>MUA NHA</li>
-            <li>THUE NHA</li>
-            <li>DU AN</li>
-            <li>TIN TUC</li>
-            <li>GIA CA</li>
+            <li>MUA</li>
+            <li>THUE</li>
+            <li>BÁN,CHO THUÊ</li>
+            <li>BĐS NƯỚC NGOÀI</li>
+            <li>THÔNG TIN</li>
+            <li>TIỆN ÍCH</li>
         </ul>
     </div>
+    <!-- main -->
+    <div class="main">
+        <div class="menu">
+            <div class="row mainmenu">
+                <div class="menuLogin">
+                    <div class="menuLogin__signin">
+                        Đăng nhập
+                    </div>
+                    <div class="menuLogin__signup">
+                        Đăng ký
+                    </div>
+                </div>
+                <div class="menuSearch">
+                    <div class="input-group">
+                        <div class="menuSearch__input">
+                            <input type="text" class="form-control" placeholder="Nhập bđs bạn muốn tìm kiếm...">
+                            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="menuSearch__sub">
+                        <div class="menuSearch__sub1">
+                            <div class="menuSearch__sub--item">MUA</div>
+                            <div class="menuSearch__sub--item">THUÊ</div>
+                            <div class="menuSearch__sub--item">DỰ ÁN</div>
+                        </div>
+                        <div class="menuSearch__sub1 menuSearch__sub1Mobile">
+                            <div class="menuSearch__sub--item">MUA</div>
+                            <div class="menuSearch__sub--item">THUÊ</div>
+                            <div class="menuSearch__sub--item">DỰ ÁN</div>
+                            <div class="menuSearch__sub--item">+</div>
+                        </div>
+                        <div class="menuSearch__sub2">
+                            <p>Xem bằng bản đồ</p>
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="menuSearch__sub2">
+                            <p>3D Tour</p>
+                            <i class="fab fa-unity"></i>
+                        </div>
+                        <div class="menuSearch__sub2">
+                            <p>Video</p>
+                            <i class="fas fa-photo-video"></i>
+                        </div>
+                        <div class="menuSearch__sub2">
+                            <p>Tìm nâng cao</p>
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="owl-carousel slider">
+            <img src="./img/cuba.png" alt="">
+            <img src="./img/korea.png" alt="">
+            <img src="./img/korea.png" alt="">
+            <img src="./img/korea.png" alt="">
+        </div>
+    </div>
+    <!-- list -->
+    <div class="content">
+        <div class="row">
+            <div class="danhmucnoibat">
+                <div class="danmucnoibat__start">
+                    <h2>DANH MỤC NỔI BẬT</h2>
+                    <i class="fas fa-folder-plus"></i>
+                </div>
+                <div class="danhmucnoibat__shadow">
+                </div>
+            </div>
+            <div class="danhmucnoibat__list">
+                <div class="danhmucnoibat__item">
+                    <img src="./img/vietnam.png" alt="">
+                    <p>MUA NHÀ</p>
+                </div>
+                <div class="danhmucnoibat__item">
+                    <img src="./img/vietnam.png" alt="">
+                    <p>THUÊ NHÀ ĐẤT</p>
+                </div>
+                <div class="danhmucnoibat__item">
+                    <img src="./img/vietnam.png" alt="">
+                    <p>MUA CĂN HỘ</p>
+                </div>
+                <div class="danhmucnoibat__item">
+                    <img src="./img/vietnam.png" alt="">
+                    <p>THUÊ CĂN HỘ</p>
+                </div>
+                <div class="danhmucnoibat__item">
+                    <img src="./img/vietnam.png" alt="">
+                    <p>MUA ĐẤT NỀN</p>
+                </div>
+                <div class="danhmucnoibat__item">
+                    <img src="./img/vietnam.png" alt="">
+                    <p>BĐS CÔNG NGHIỆP</p>
+                </div>
+                <div class="danhmucnoibat__item">
+                    <img src="./img/vietnam.png" alt="">
+                    <p>BĐS NƯỚC NGOÀI</p>
+                </div>
+                <div class="danhmucnoibat__item">
+                    <img src="./img/vietnam.png" alt="">
+                    <p>YÊU CẦU BĐS</p>
+                </div>
+            </div>
+        </div>
+        <div class="row duanRow">
+            <div class="danhmucnoibat duan">
+                <div class="danmucnoibat__start duan__start">
+                    <h2>DỰ ÁN</h2>
+                    <i class="fas fa-share-alt"></i>
+                </div>
+                <div class="danhmucnoibat__shadow">
+                </div>
+            </div>
+            <div class="duan1">
+                <div class="TitleaName">
+                    <div class="TitleaName__name">
+                        <p>Xem bằng bản đồ </p>
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="TitleaName__title">
+                        <h1>| VINHOMES CENTRAL PARK</h1>
+                    </div>
+                </div>
+                <div class="duan1__item row">
+                    <div class="duan1__itemLeft col l-8 m-8 c-12">
+                        <img src="./img/vietnam.png" alt="">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="duan1__itemRight col l-4 m-4 c-12">
+                        <img class="duan1__itemRight--img1" src="./img/cuba.png" alt="">
+                        <img src="./img/korea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="duan1 duan2">
+                <div class="TitleaName">
+                    <div class="TitleaName__title">
+                        <h1>| VANDORA CITY</h1>
+                    </div>
+                </div>
+                <div class="duan1__item row">
+                    <div class="duan1__itemLeft col l-8 m-8 c-12">
+                        <img src="./img/vietnam.png" alt="">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="duan1__itemRight col l-4 m-4 c-12">
+                        <img class="duan1__itemRight--img1" src="./img/cuba.png" alt="">
+                        <img src="./img/korea.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="btnMore col l-4 m-4 c-12">
+                <div class="btnMore__des">XEM THÊM <p>710</p> DỰ ÁN KHÁC</div>
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+        <div class="row bietthuRow">
+            <div class="danhmucnoibat bietthu">
+                <div class="danmucnoibat__start bietthu__start">
+                    <h2>BIỆT THỰ</h2>
+                    <i class="fas fa-hotel"></i>
+                </div>
+            </div>
+            <div class="SelectaName">
+                <div class="SelectaName__select">
+                    <div class="SelectaName__select--mua">
+                        <p>MUA</p>
+                    </div>
+                    <div class="SelectaName__select--thue">
+                        <p>THUÊ</p>
+                    </div>
+                </div>
+                <div class="SelectaName__name">
+                    <p>Xem bằng bản đồ</p>
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+            </div>
+            <div class="bietthuItem">
+                <div class="row">
+                    <div class="bietthuItem__item col l-4 m-4 c-12">
+                        <img src="./img/cuba.png" alt="">
+                        <i class="far fa-heart"></i>
+                        <p class="bietthuItem__item--title">THE MODERNA VILLA</p>
+                        <p class="bietthuItem__item--des">ĐT Việt Nam đã có chiến thắng “4 sao” trước ĐT Indonesia trong
+                            khuôn khổ bảng G vòng loại World Cup 2022 khu vực châu Á.</p>
+                        <div class="bietthuItem__item--footer">
+                            <h1>40 TỶ</h1>
+                            <div class="btnDetail">
+                                <p>Xem chi tiết</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bietthuItem__item col l-4 m-4 c-12">
+                        <img src="./img/turkey.png" alt="">
+                        <i class="far fa-heart"></i>
+                        <p class="bietthuItem__item--title">THE MODERNA VILLA</p>
+                        <p class="bietthuItem__item--des">ĐT Việt Nam đã có chiến thắng “4 sao” trước ĐT Indonesia trong
+                            khuôn khổ bảng G vòng loại World Cup 2022 khu vực châu Á.</p>
+                        <div class="bietthuItem__item--footer">
+                            <h1>40 TỶ</h1>
+                            <div class="btnDetail">
+                                <p>Xem chi tiết</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bietthuItem__item col l-4 m-4 c-12">
+                        <img src="./img/vietnam.png" alt="">
+                        <i class="far fa-heart"></i>
+                        <p class="bietthuItem__item--title">THE MODERNA VILLA</p>
+                        <p class="bietthuItem__item--des">ĐT Việt Nam đã có chiến thắng “4 sao” trước ĐT Indonesia trong
+                            khuôn khổ bảng G vòng loại World Cup 2022 khu vực châu Á.</p>
+                        <div class="bietthuItem__item--footer">
+                            <h1>40 TỶ</h1>
+                            <div class="btnDetail">
+                                <p>Xem chi tiết</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btnMore col l-4 m-4 c-12">
+                <div class="btnMore__des">XEM THÊM <p></p> BIỆT THỰ</div>
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+        <div class="row bietthuRow bdsKCNrow">
+            <div class="danhmucnoibat bdsKCN">
+                <div class="danmucnoibat__start bdsKCN__start">
+                    <h2>BĐS KHU CÔNG NGHIỆP</h2>
+                    <i class="fas fa-industry"></i>
+                </div>
+            </div>
+            <div class="SelectaName">
+                <div class="SelectaName__select">
+                    <div class="SelectaName__select--mua">
+                        <p>MUA</p>
+                    </div>
+                    <div class="SelectaName__select--thue">
+                        <p>THUÊ</p>
+                    </div>
+                </div>
+                <div class="SelectaName__name">
+                    <p>Xem bằng bản đồ</p>
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+            </div>
+            <div class="bietthuItem bdsKCNItem">
+                <div class="row">
+                    <div class="bietthuItem__item bdsKCNItem__item col l-6 m-6 c-12">
+                        <img src="./img/cuba.png" alt="">
+                        <i class="far fa-heart"></i>
+                        <div class="bdsKCNItem__itemContent row">
+                            <div class="bdsKCNItem__itemContent1 col l-8 m-8 c-12">
+                                <p class="bietthuItem__item--title">THE MODERNA VILLA</p>
+                                <p class="bietthuItem__item--des">ĐT Việt Nam đã có chiến thắng “4 sao” trước ĐT
+                                    Indonesia trong khuôn khổ bảng G vòng loại World Cup 2022 khu vực châu Á.</p>
+                            </div>
+                            <div class="bdsKCNItem__itemContent2 l-4 m-4 c-12">
+                                <h1>40 TỶ</h1>
+                            </div>
+                        </div>
+                        <div class="bietthuItem__item--footer bdsKCNItem__item--footer">
+                            <div class="btnDetail">
+                                <p>Xem chi tiết</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bietthuItem__item bdsKCNItem__item col l-6 m-6 c-12">
+                        <img src="./img/turkey.png" alt="">
+                        <i class="far fa-heart"></i>
+                        <div class="bdsKCNItem__itemContent row">
+                            <div class="bdsKCNItem__itemContent1 col l-8 m-8 c-12">
+                                <p class="bietthuItem__item--title">THE MODERNA VILLA</p>
+                                <p class="bietthuItem__item--des">ĐT Việt Nam đã có chiến thắng “4 sao” trước ĐT
+                                    Indonesia trong khuôn khổ bảng G vòng loại World Cup 2022 khu vực châu Á.</p>
+                            </div>
+                            <div class="bdsKCNItem__itemContent2 l-4 m-4 c-12">
+                                <h1>40 TỶ</h1>
+                            </div>
+                        </div>
+                        <div class="bietthuItem__item--footer bdsKCNItem__item--footer">
+                            <div class="btnDetail">
+                                <p>Xem chi tiết</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btnMore col l-6 m-6 c-12">
+                <div class="btnMore__des">XEM THÊM <p></p> KCN</div>
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+        <div class="row bietthuRow tintucRow">
+            <div class="danhmucnoibat tintuc">
+                <div class="danmucnoibat__start tintuc__start">
+                    <h2>TIN TỨC</h2>
+                    <i class="fas fa-newspaper"></i>
+                </div>
+            </div>
+            <div class="tintucItem">
+                <div class="row tintucItemRow">
+                    <div class="tintucItem__left col l-6 m-12 c-12">
+                        <div class="tintucItem__leftItem">
+                            <img src="./img/korea.png" alt="">
+                            <div class="tintucItem__Infor">
+                                <h3>CitiGrand Sự lựa chọn hoàn hảo cho các gia đình trẻ năng động</h3>
+                                <div class="tintucItem__InforFooter">
+                                    <div class="tintucItem__InforFooter--time">
+                                        <i class="far fa-clock"></i>
+                                        <p>2h</p>
+                                    </div>
+                                    <div class="tintucItem__InforFooter--share">
+                                        <i class="far fa-heart"></i>
+                                        <i class="fas fa-share-alt"></i>
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tintucItem__leftItem">
+                            <img src="./img/korea.png" alt="">
+                            <div class="tintucItem__Infor">
+                                <h3>CitiGrand Sự lựa chọn hoàn hảo cho các gia đình trẻ năng động</h3>
+                                <div class="tintucItem__InforFooter">
+                                    <div class="tintucItem__InforFooter--time">
+                                        <i class="far fa-clock"></i>
+                                        <p>2h</p>
+                                    </div>
+                                    <div class="tintucItem__InforFooter--share">
+                                        <i class="far fa-heart"></i>
+                                        <i class="fas fa-share-alt"></i>
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tintucItem__left col l-6 m-12 c-12">
+                        <div class="tintucItem__leftItem">
+                            <img src="./img/korea.png" alt="">
+                            <div class="tintucItem__Infor">
+                                <h3>CitiGrand Sự lựa chọn hoàn hảo cho các gia đình trẻ năng động</h3>
+                                <div class="tintucItem__InforFooter">
+                                    <div class="tintucItem__InforFooter--time">
+                                        <i class="far fa-clock"></i>
+                                        <p>2h</p>
+                                    </div>
+                                    <div class="tintucItem__InforFooter--share">
+                                        <i class="far fa-heart"></i>
+                                        <i class="fas fa-share-alt"></i>
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tintucItem__leftItem">
+                            <img src="./img/korea.png" alt="">
+                            <div class="tintucItem__Infor">
+                                <h3>CitiGrand Sự lựa chọn hoàn hảo cho các gia đình trẻ năng động</h3>
+                                <div class="tintucItem__InforFooter">
+                                    <div class="tintucItem__InforFooter--time">
+                                        <i class="far fa-clock"></i>
+                                        <p>2h</p>
+                                    </div>
+                                    <div class="tintucItem__InforFooter--share">
+                                        <i class="far fa-heart"></i>
+                                        <i class="fas fa-share-alt"></i>
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btnMore col l-6 m-6 c-12">
+                <div class="btnMore__des">XEM THÊM <p></p>
+                </div>
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+        <div class="row contentFooter col l-4 m-4 c-12"></div>
+        <div class="khachhang">
+            <h2>KHÁCH HÀNG VÀ ĐỐI TÁC</h1>
+                <p>Rất nhiều người đã dự đoán Công Phượng sẽ được điền tên trong đội hình chính thức.</p>
+        </div>
+        <div class="sliderFooter">
+            <div class="owl-carousel slider2">
+                <img src="./img/cuba.png" alt="">
+                <img src="./img/cuba.png" alt="">
+                <img src="./img/cuba.png" alt="">
+                <img src="./img/cuba.png" alt="">
+                <img src="./img/cuba.png" alt="">
+            </div>
+        </div>
+
+        <div class="endBody">
+            <div class="endBody__vien">
+                <div class="endBody__vien--item">
+                </div>
+            </div>
+            <img src="./img/vietnam.png" alt="">
+        </div>
+    </div>
+
+    <div id="footer" class="footer">
+        <!-- Main -->
+        <div class="containerFooter">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 leftFooter">
+                    <div class="leftFooter__title">
+                    </div>
+                    <div class="text-widget leftFooter__content">
+                        <span> <i class="fas fa-map-pin"></i> 164 Phan Văn Trị Phường 12, Quận Bình thạnh, TP.Hồ Chí
+                            Minh </span> <br><br><br>
+                        <span><i class="fa fa-phone"></i> <a href="tel:1900066829">HOT LINE <strong>1900 06 68
+                                    29</strong> </a></span><br><br><br>
+                        <span> <i class="fa fa-envelope"></i> <a
+                                href="mailto:info.8xland.com">Wowlandgroup@gmail.com</a> </span><br>
+                        <div class="ft-newslatter">
+                            <h2 class="margin-bottom-0">Nhận thông tin từ chúng tôi.</h2>
+                            <div class="input-group inputEmail">
+                                <div class="menuSearch__input">
+                                    <input type="events" class="form-control" placeholder="NHẬP EMAIL">
+                                    <i class="fas fa-paper-plane"></i>
+                                    </input>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 rightFooter">
+                    <div class="col-md-7 col-sm-12 centerFooter__content">
+                        <h2>Thông tin | Hỗ trợ</h2>
+                        <ul class="footer-links">
+                            <li class="link_footer"><i class="fas fa-chevron-right"></i><a
+                                    href="https://8xland.com/gioi-thieu#">Về chúng tôi</a></li>
+                            <li class="link_footer"><i class="fas fa-chevron-right"></i><a
+                                    href="https://8xland.com/gioi-thieu#">Hỏi đáp</a></li>
+                            <li class="link_footer"><i class="fas fa-chevron-right"></i><a
+                                    href="https://8xland.com/gioi-thieu#">Hướng dẫn tìm căn hộ</a></li>
+                            <li class="link_footer"><i class="fas fa-chevron-right"></i><a
+                                    href="https://8xland.com/gioi-thieu#">Điều khoản thương lượng</a></li>
+                            <li class="link_footer"><i class="fas fa-chevron-right"></i><a
+                                    href="https://8xland.com/gioi-thieu#">Cơ hội nghề nghiệp</a></li>
+                            <li class="link_footer"><i class="fas fa-chevron-right"></i><a
+                                    href="https://8xland.com/gioi-thieu#">Cơ hôi đối tác</a></li>
+                            <li class="link_footer"><i class="fas fa-chevron-right"></i><a
+                                    href="https://8xland.com/gioi-thieu#">Liên hệ</a></li>
+                        </ul>
+                        <div class="clearfix-mobile"></div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="col-md-5 col-sm-12 rightFooter__content">
+                        <h2>8XLAND VIETNAM</h2>
+                        <ul class="footer-links">
+                            <li class="link_footer">
+                                <i class="fas fa-phone-volume"></i>
+                                <img src="./img/vietnam.png" alt="">
+                                <p>0909 789 7979</p>
+                            </li>
+                            <li class="link_footer">
+                                <i class="fas fa-phone-volume"></i>
+                                <img src="./img/korea.png" alt="">
+                                <p>0909 789 7979</p>
+                            </li>
+                            <li class="link_footer">
+                                <i class="fas fa-phone-volume"></i>
+                                <img src="./img/cuba.png" alt="">
+                                <p>0909 789 7979</p>
+                            </li>
+                            <li class="link_footer">
+                                <i class="fas fa-phone-volume"></i>
+                                <img src="./img/turkey.png" alt="">
+                                <p>0909 789 7979</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row footerOFooter">
+                <div class="social-footer col-md-5 col-sm-12">
+                    <div class="center-block">
+                        <img src="./img/iconFooter.png" alt="">
+                        <div class="center-block__share">
+                            <a href="https://wowlandgroup.com/"><i class="fab fa-facebook-square fa-3x social"></i></a>
+                            <a href="https://wowlandgroup.com/"><i class="fab fa-twitter-square fa-3x social"></i></a>
+                            <a href="https://wowlandgroup.com/"><i
+                                    class="fab fa-google-plus-square fa-3x social"></i></a>
+                            <a href="mailto:wowland@gmail.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom col-md-6 col-sm-12 DKKD">
+                    <div class="content">
+                        <p>Giấy ĐKKD số: 123456789 Do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp lần đầu ngày
+                            10/10/2018. Chịu trách nhiệm nội dung: Ông ***. Ghi rõ nguồn "www.Wowlandgroup.com" khi phát
+                            hành lại thông tin từ website này. Phát triển bởi Wowland Group. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots:true,
+                pagination:true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+            $('.slider .owl-dots button').click(function (e) {
+                e.preventDefault();
+                $('.slider .owl-dots button.owl-dot').attr('style', 'background-color: unset !important');
+                $('.slider .owl-dots button.owl-dot.active').attr('style', 'background-color: #121a66 !important');
+            })
+            $('.slider2').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            })
+        });
+    </script>
+
+
+
+    <!-- <script src="./8xland/chosen.min.js.download"></script>
+    <script src="./8xland/magnific-popup.min.js.download"></script>
+    <script src="./8xland/rangeSlider.js.download"></script>
+    <script src="./8xland/sticky-kit.min.js.download"></script>
+    <script src="./8xland/slick.min.js.download"></script>
+    <script src="./8xland/mmenu.min.js.download"></script>
+    <script src="./8xland/tooltips.min.js.download"></script>
+    <script src="./8xland/masonry.min.js.download"></script>
+    <script src="./8xland/jquery.counterup.min.js.download"></script>
+    <script src="./8xland/datatable.js.download"></script>
+    <script src="./8xland/dropzone.js.download"></script>
+    <script src="./8xland/main_custom.js.download"></script> -->
+    <!-- <script src="./js/slider5.js"></script> -->
+
+    <!-- <script src="./js/owl-carousel/owl.carousel.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </body>
+
 </html>
